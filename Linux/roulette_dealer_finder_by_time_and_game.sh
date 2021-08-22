@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cat $1_Dealer_schedule | grep "$2" | awk '{print $1, $2, $5, $6}'
-
+cat $1_Dealer_schedule | awk -F"\t" '{print $1, $a}' a=$2 | grep "$3"
 
 
