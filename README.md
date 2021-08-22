@@ -4,7 +4,8 @@ Elm VM Project1
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-(check the network diagrma attached)
+![image](https://user-images.githubusercontent.com/81688396/130365337-d12f55ac-7bf4-46ad-badc-531088bdb258.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
