@@ -105,6 +105,14 @@ SSH into the control node and follow the steps below:
 - Update the filebeat and metricbeat config files to include elk server Private IP address in the Elasticsearch and Kibana Sections of the configuration file.
 - Run both these playbooks, and after navigating to elk server's public Ip address:5601 and checked it is accessible which meant the installation worked as expected.
 
+
+![Kibana access](https://user-images.githubusercontent.com/81688396/130631483-5a94d736-950a-44f2-9b58-ee4eb46551a6.PNG)
+
+![metrcidata dashboard](https://user-images.githubusercontent.com/81688396/130631500-4b8cd165-6df0-4c7f-9875-cf3a046576ce.PNG)
+
+![Systemdata logs dashboard](https://user-images.githubusercontent.com/81688396/130631521-f5e5af21-8f5c-4a50-a8c0-1ae9a4a70133.PNG)
+
+
 Which file is the playbook? filebeat-playbook.yml and metricbeat-playbook.yml are the playbook files Where do you copy it? /etc/ansible
 - _Which file do you update to make Ansible run the playbook on a specific machine? filebeat-config.yml How do I specify which machine to install the ELK server on versus which to install Filebeat on? /etc/ansible/hosts file to be installed ElkServers
 - _Which URL do you navigate to in order to check that the ELK server is running?http://[your.ELK-VM.External.IP]:5601/app/kibana
